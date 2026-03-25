@@ -1,0 +1,169 @@
+.inventory-tab {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inventory-loading {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.inventory-header {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+}
+
+.search-box svg {
+  color: #999;
+  flex-shrink: 0;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.product-image {
+  position: relative;
+  height: 160px;
+  background: #f8f9fa;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stock-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.stock-badge.healthy {
+  background: #d4edda;
+  color: #155724;
+}
+
+.stock-badge.low {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.stock-badge.critical {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.product-info {
+  padding: 16px;
+}
+
+.product-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.product-info .category {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail .label {
+  display: block;
+  font-size: 0.75rem;
+  color: #999;
+  margin-bottom: 2px;
+}
+
+.detail .value {
+  font-weight: 600;
+  color: #333;
+}
+
+.stock-row, .velocity-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.stock-label, .velocity-label {
+  color: #666;
+}
+
+.stock-value {
+  font-weight: 600;
+}
+
+.stock-value.healthy {
+  color: #28a745;
+}
+
+.stock-value.low {
+  color: #ffc107;
+}
+
+.stock-value.critical {
+  color: #dc3545;
+}
+
+.velocity-value {
+  color: #0d6efd;
+  font-weight: 600;
+}

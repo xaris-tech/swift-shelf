@@ -231,30 +231,32 @@
 .rec-item {
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 10px 14px;
   border-radius: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   background: #f8f9fa;
-  gap: 16px;
+  gap: 12px;
 }
 
 .rec-item .rec-info {
   flex: 1;
+  min-width: 0;
 }
 
 .rec-item .rec-info .name {
   font-weight: 600;
   display: block;
+  font-size: 0.9rem;
 }
 
 .rec-item .rec-info .category {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #666;
 }
 
 .rec-metrics {
   display: flex;
-  gap: 16px;
+  gap: 10px;
 }
 
 .metric {
@@ -263,32 +265,36 @@
 
 .metric .value {
   display: block;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #333;
+  line-height: 1.1;
 }
 
 .metric .label {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #666;
+  display: block;
 }
 
 .rec-score {
   text-align: center;
-  padding: 8px 16px;
+  padding: 6px 12px;
   background: var(--primary);
-  border-radius: 8px;
+  border-radius: 6px;
   color: white;
+  flex-shrink: 0;
 }
 
 .rec-score .score-value {
   display: block;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
+  line-height: 1.1;
 }
 
 .rec-score .score-label {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   opacity: 0.9;
 }
 

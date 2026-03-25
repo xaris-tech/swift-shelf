@@ -87,7 +87,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=85,
             ad_spend=50.00,
             sales_history=generate_sales_history(8),
-            image_url="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=300&fit=crop"
+            image_url="/images/wireless-budspro.jpg"
         ),
         Product(
             id="prod_002",
@@ -99,7 +99,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=90,
             ad_spend=75.00,
             sales_history=generate_sales_history(5),
-            image_url="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop"
+            image_url="/images/Smart Watch Series 5.jpg"
         ),
         Product(
             id="prod_003",
@@ -111,7 +111,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=20,
             ad_spend=10.00,
             sales_history=generate_sales_history(12),
-            image_url="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=300&fit=crop"
+            image_url="/images/Portable Charger 20000mAh.jpg"
         ),
         Product(
             id="prod_004",
@@ -123,7 +123,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=60,
             ad_spend=15.00,
             sales_history=generate_sales_history(3),
-            image_url="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/plants/400/300"
         ),
         Product(
             id="prod_005",
@@ -135,7 +135,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=35,
             ad_spend=20.00,
             sales_history=generate_sales_history(6),
-            image_url="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/lamp/400/300"
         ),
         Product(
             id="prod_006",
@@ -147,7 +147,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=15,
             ad_spend=5.00,
             sales_history=generate_sales_history(15),
-            image_url="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/pillow/400/300"
         ),
         Product(
             id="prod_007",
@@ -159,7 +159,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=75,
             ad_spend=40.00,
             sales_history=generate_sales_history(7),
-            image_url="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/shoes/400/300"
         ),
         Product(
             id="prod_008",
@@ -171,7 +171,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=40,
             ad_spend=25.00,
             sales_history=generate_sales_history(2),
-            image_url="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/jacket/400/300"
         ),
         Product(
             id="prod_009",
@@ -183,7 +183,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=25,
             ad_spend=12.00,
             sales_history=generate_sales_history(9),
-            image_url="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/backpack/400/300"
         ),
         Product(
             id="prod_010",
@@ -195,7 +195,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=30,
             ad_spend=15.00,
             sales_history=generate_sales_history(10),
-            image_url="https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/yogamat/400/300"
         ),
         Product(
             id="prod_011",
@@ -207,7 +207,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=55,
             ad_spend=30.00,
             sales_history=generate_sales_history(4),
-            image_url="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/dumbbells/400/300"
         ),
         Product(
             id="prod_012",
@@ -219,7 +219,7 @@ def get_mock_products() -> List[Product]:
             visibility_score=45,
             ad_spend=20.00,
             sales_history=generate_sales_history(11),
-            image_url="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=300&fit=crop"
+            image_url="https://picsum.photos/seed/fitnessband/400/300"
         ),
     ]
 

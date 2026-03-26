@@ -29,7 +29,7 @@ npm run dev
 - **AI Queries**: Ask natural language questions about your inventory
 
 ![Inventory](readme-imgs/Inventory.png)
-![AI-Response Example](readme-imgs/AI-Response Example.png)
+![AI-Response-Example](readme-imgs/AI-Response-Example.png)
 
 ## API Endpoints
 

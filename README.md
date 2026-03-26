@@ -4,8 +4,6 @@ AI-Driven Inventory & Trend Predictor
 
 ## Setup
 
-![Start-up](readme-imgs/Start-up.png)
-
 ### Backend
 ```bash
 # Install dependencies (if not installed)
@@ -27,7 +25,8 @@ npm run dev
 - **Dashboard**: AI Assistant chat + Analytics side by side
 - **Inventory**: Product grid with images, search, and stock status
 - **AI Queries**: Ask natural language questions about your inventory
-
+  
+![Start-up](readme-imgs/Start-up.png)
 ![Inventory](readme-imgs/Inventory.png)
 ![AI-Response-Example](readme-imgs/AI-Response-Example.png)
 
